@@ -9,7 +9,7 @@ pipeline{
                 
             
             steps{
-                git ''
+                git 'https://github.com/manishyadv46/practics.git'
             }    
             }
             stage("maven build"){
